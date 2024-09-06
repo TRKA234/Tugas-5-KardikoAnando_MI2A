@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="16dp"
+    tools:context=".TotalBelanja">
+
+    <EditText
+        android:id="@+id/edt_total_belanja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Masukkan total belanja"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_hitung_diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Diskon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ketentuan Diskon:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Total belanja kecil dari Rp. 100.000: 0% diskon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Total belanja antara Rp. 100.000 sampai Rp. 500.000: 10% diskon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Total belanja antara Rp. 500.000 sampai Rp. 1.000.000: 20% diskon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Total belanja besar dari Rp. 1.000.000: 30% diskon" />
+
+    <TextView
+        android:id="@+id/tv_diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+</LinearLayout>

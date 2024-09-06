@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context=".BilGanjilGenap">
+
+  <EditText
+      android:id="@+id/edt_bilangan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Masukkan bilangan"
+      android:inputType="number"
+      android:textSize="20sp"/>
+
+  <Button
+      android:id="@+id/btn_cek_bilangan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Cek Bilangan" />
+
+  <TextView
+      android:id="@+id/tv_hasil"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="18sp" />
+
+  </LinearLayout>
