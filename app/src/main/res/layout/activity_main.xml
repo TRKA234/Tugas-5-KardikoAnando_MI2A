@@ -17,7 +17,7 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Latihan 4 Aplikasi Android Studio"
+        android:text="Latihan 5 Aplikasi Android Studio"
         android:layout_marginTop="90dp"
         android:layout_gravity="center"
         android:gravity="center"
